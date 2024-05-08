@@ -1,0 +1,24 @@
+{
+  "name": "kickstarting-nodejs",
+  "version": "1.0.0",
+  "description": "kickstart node js",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon form.js",
+    "start-server": "node form.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raufurkhan/Kickstarting-Nodejs.git"
+  },
+  "author": "Raufur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raufurkhan/Kickstarting-Nodejs/issues"
+  },
+  "homepage": "https://github.com/raufurkhan/Kickstarting-Nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

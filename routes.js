@@ -24,7 +24,7 @@ if (req.url === "/message" && req.method === "POST") {
     return req.on("end", () => {
         console.log("onend")
         const parsedBody = Buffer.concat(body).toString()
-        const data = parsedBody.split("=")[1]
+        const data = parsedBody.split("=")[0]
         console.log({ data })
         fs.writeFileSync("message.txt", data)
 
